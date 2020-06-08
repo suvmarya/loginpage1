@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Heebo:wght@800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body{
+    background: url(london.jpeg) no-repeat center center  fixed ;
+    background-size: cover;
+    
+}
+.container{
+    width: 25%;
+    /* border: 10px solid red; */
+    color: white;
+    position: absolute;
+    top: 28%;
+    left: 40%;
+    
+
+}
+.container h1{
+    width: 46%;
+    display: inline-block;
+    font-size: 40px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 40px;
+    /* padding: 13px; */
+    font-family: 'Heebo', sans-serif;
+}
+.box{
+    width: 100%;
+    margin: 10px 0px ;
+    border-bottom: 2px solid purple;
+
+
+
+}
+.box input{
+    width: 75%;
+    border: none;
+    outline: none;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Dosis', sans-serif;
+    
+    padding: 5px 10px;
+    font-size: 20px;
+    color: white;
+    background: none;
+    /* background-color: transparent; */
+    
+}
+.box i{
+    width: 25px;
+    
+    text-align: center;
+    
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    /* width: 25%; */
+    margin-top: 5px;
+    padding: 10px 21px;
+    border: 2px solid purple;
+    border-radius: 15px;
+    font-size: 18px;
+    color: white;
+    background: none;
+    font-weight: bold;
+    
+    
+
+}
+.btn:hover{
+    opacity: 0.5;
+    color: purple;
+    background: white;
+}
+
+
+/* @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+      background: url(img-1.jpg) no-repeat center center  fixed  ;
+      background-size: cover; 
+    }
+  } */
